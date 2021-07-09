@@ -18,7 +18,8 @@ public class SfgDiApplication {
 
 		String greeting = myController.sayHello();
 
-		System.out.println(greeting);
+		System.out.println(("-".repeat(10) + "PRIMARY BEAN"));
+		System.out.println(myController.sayHello());
 
 		System.out.println(("-".repeat(10) + "Property"));
 
